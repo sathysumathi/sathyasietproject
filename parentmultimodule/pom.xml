@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.siet.org</groupId>
+  <artifactId>parentmultimodule</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>business</module>
+  	<module>data</module>
+  </modules>
+</project>
+
+
+<!-- this is parent pom so create two maven module one as business and 
+another one as data.so they are child module for this parent -->

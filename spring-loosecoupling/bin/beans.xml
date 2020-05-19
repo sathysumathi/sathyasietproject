@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="mathCheatobjvalue" class="com.siet.org.MathCheat"></bean>
+<bean id="scienceCheatobjvalue" class="com.siet.org.ScienceCheat"></bean>
+<bean id="javaCheatobjvalue" class="com.siet.org.JavaCheat"></bean>
+
+<bean id="stu" class="com.siet.org.Student">
+<property name="ch" ref="javaCheatobjvalue"></property>
+</bean>
+</beans>
